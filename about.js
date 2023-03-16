@@ -2,22 +2,27 @@ const partnersList = [
   {
     id: 1,
     imgURL: './images/partner-1.svg',
+    altText: 'partner-1',
   },
   {
     id: 2,
     imgURL: './images/partner-2.svg',
+    altText: 'partner-2',
   },
   {
     id: 3,
     imgURL: './images/partner-3.svg',
+    altText: 'partner-3',
   },
   {
     id: 4,
     imgURL: './images/partner-4.svg',
+    altText: 'partner-4',
   },
   {
     id: 5,
     imgURL: './images/partner-5.svg',
+    altText: 'partner-5',
   },
 ];
 const showPartners = () => {
@@ -28,6 +33,7 @@ const showPartners = () => {
   partnersList.map((each) => {
     const partnerImg = document.createElement('img');
     partnerImg.src = each.imgURL;
+    partnerImg.alt = each.altText;
     partner.appendChild(partnerImg);
     return true;
   });
@@ -71,6 +77,7 @@ const mediaQuery = window.matchMedia('(min-width: 768px)');
 // Define the function to perform when the media query matches
 const doSomething = () => {
   hamburger.classList.remove('fa-sharp', 'fa-solid', 'fa-bars');
+  window.onresize = () => window.location.reload();
 };
 // Call the function once to check if the media query matches initially
 if (mediaQuery.matches) {

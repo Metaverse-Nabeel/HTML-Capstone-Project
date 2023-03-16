@@ -296,7 +296,7 @@
 
 .footer {
   height: 20vh;
-  background-color: #fff;
+  background-color: var(--black);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -319,7 +319,7 @@
   font-weight: 700;
   font-size: 10px;
   line-height: 13px;
-  color: #3b3e45;
+  color: #fff;
 }
 
 .hide {
@@ -653,7 +653,7 @@
 
   .footer {
     height: 30vh;
-    background-color: var(--gray);
+    background-color: var(--black);
   }
 
   .logoFooter {
@@ -680,6 +680,6 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 28px;
-    color: var(--black);
+    color: #fff;
   }
 }

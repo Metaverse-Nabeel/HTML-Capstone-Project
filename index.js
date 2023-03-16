@@ -3,6 +3,7 @@ const singers = [
     id: 1,
     singerName: 'Yochai Benkler',
     imageURL: './images/singer1.svg',
+    altText: 'Singer-1',
     singerIntro: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     singerDesc: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
@@ -10,6 +11,7 @@ const singers = [
     id: 2,
     singerName: 'Kilnam Chon',
     imageURL: './images/singer2.svg',
+    altText: 'Singer-2',
     singerIntro: 'Kilnam Chon Professor of Entrepreneurial Legal Studies at Harvard Law School',
     singerDesc: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',
   },
@@ -17,6 +19,7 @@ const singers = [
     id: 3,
     singerName: 'Ryan Merkley',
     imageURL: './images/singer3.svg',
+    altText: 'Singer-3',
     singerIntro: 'CEO of Creativve Commons, ex COO of the Mozilla Foundation',
     singerDesc: 'Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment',
   },
@@ -24,6 +27,7 @@ const singers = [
     id: 4,
     singerName: 'SohYeong Noh',
     imageURL: './images/singer4.svg',
+    altText: 'Singer-4',
     singerIntro: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     singerDesc: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
@@ -31,6 +35,7 @@ const singers = [
     id: 5,
     singerName: 'Julia Leda',
     imageURL: './images/singer5.svg',
+    altText: 'Singer-5',
     singerIntro: 'President of Young Pirates of Europe',
     singerDesc: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
   },
@@ -38,6 +43,7 @@ const singers = [
     id: 6,
     singerName: 'Lila tretikov',
     imageURL: './images/singer6.svg',
+    altText: 'Singer-6',
     singerIntro: 'Executive Director of the Wikimedia Foundation',
     singerDesc: 'Lila Tretikov is the Executive of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languag-es and used by nearly half a billion people around the world every month.',
   },
@@ -70,6 +76,7 @@ const showSingers = (i) => {
     singerDiv.appendChild(imgDiv);
     const img = document.createElement('img');
     img.src = singer.imageURL;
+    img.alt = singer.altText;
     imgDiv.appendChild(img);
     const descDiv = document.createElement('div');
     descDiv.classList.add('descDiv');
@@ -146,22 +153,27 @@ const partnersList = [
   {
     id: 1,
     imgURL: './images/partner-1.svg',
+    altText: 'partner-1',
   },
   {
     id: 2,
     imgURL: './images/partner-2.svg',
+    altText: 'partner-2',
   },
   {
     id: 3,
     imgURL: './images/partner-3.svg',
+    altText: 'partner-3',
   },
   {
     id: 4,
     imgURL: './images/partner-4.svg',
+    altText: 'partner-4',
   },
   {
     id: 5,
     imgURL: './images/partner-5.svg',
+    altText: 'partner-5',
   },
 ];
 const showPartners = () => {
@@ -172,6 +184,7 @@ const showPartners = () => {
   partnersList.map((each) => {
     const partnerImg = document.createElement('img');
     partnerImg.src = each.imgURL;
+    partnerImg.alt = each.altText;
     partner.appendChild(partnerImg);
     return true;
   });
