@@ -4,7 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/d7d1a0422d.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,24 +33,165 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/Logo/apple-touch-icon.png"
+      href="./Logo/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/Logo/favicon-32x32.png"
+      href="./Logo/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/Logo/favicon-16x16.png"
+      href="./Logo/favicon-16x16.png"
     />
-    <link rel="manifest" href="/Logo/site.webmanifest" />
+    <link rel="manifest" href="./Logo/site.webmanifest" />
     <title>My Concert Saga</title>
   </head>
-  <body>
-    <h1>My Concert Saga</h1>
+  <body id="body">
+    <div class="navBannerHeader">
+      <ul class="navBanner">
+        <li><i class="fa-brands fa-facebook-f"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li>English</li>
+        <li>My Page</li>
+        <li>Logout</li>
+      </ul>
+    </div>
+    <header class="header">
+      <a class="logo" href="./index.html"
+        ><img src="./Logo/logo.svg" alt="Logo"
+      /></a>
+      <nav class="desktopNavbar">
+        <ul class="navbarItems hide">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./about.html">Concerts</a></li>
+          <li><a href="./about.html">Sponsors</a></li>
+          <li><a href="./about.html">Campaign</a></li>
+        </ul>
+        <i class="closeBtn hide"></i>
+        <i class="fa-sharp fa-solid fa-bars hamburger"></i>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="mainHero">
+        <div class="contentHero">
+          <h5 class="introHero">"Hello! World of Music"</h5>
+          <h1 class="titleHero">GLOBAL MUSIC CONCERT SAGA 2023</h1>
+        </div>
+        <div class="descHero">
+          <p class="desc">
+            A joyful celebration believing in the value of openness and sharing,
+            creating a positive change with music for the people from over 80
+            countries is taking place in April, in South Korea.
+          </p>
+        </div>
+        <div class="venueHero">
+          <h5 class="date">2023.04.24 (THU) ~ 30 (FRI)</h5>
+          <p class="venue">
+            @Open Air Theatre of Seoul, South Korea, Music Center and more...
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="mainProgram">
+      <div class="mainProgramTitle">
+        <div class="headingMainProgram">
+          <h4 class="titleHeading">Main Program</h4>
+          <div class="borderBottom"></div>
+        </div>
+        <div class="categories">
+          <div class="category">
+            <img
+              class="icon"
+              src="./images/program_icon_01.svg"
+              alt="Program_1"
+            />
+            <h5 class="categoryTitle">Lecture</h5>
+            <p class="categoryDesc">
+              Listen to the speakers from various countries about the messages
+              of sharing and opening.
+            </p>
+          </div>
+          <div class="category">
+            <img
+              class="icon"
+              src="./images/program_icon_02.svg"
+              alt="Program_2"
+            />
+            <h5 class="categoryTitle">CC Exhibition</h5>
+            <p class="categoryDesc">
+              Appreciate various creations applying CC license of artists,
+              organized from Art Center Nabi
+            </p>
+          </div>
+          <div class="category">
+            <img
+              class="icon"
+              src="./images/program_icon_03.svg"
+              alt="Program_3"
+            />
+            <h5 class="categoryTitle">Forum</h5>
+            <p class="categoryDesc">
+              Have the time to share your thoughts and opinions with experts for
+              each topic.
+            </p>
+          </div>
+          <div class="category">
+            <img
+              class="icon"
+              src="./images/program_icon_04.svg"
+              alt="Program_4"
+            />
+            <h5 class="categoryTitle">Workshop</h5>
+            <p class="categoryDesc">
+              Try creating your own work using open source license rather than
+              just watching at it.
+            </p>
+          </div>
+          <div class="category">
+            <img
+              class="icon"
+              src="./images/program_icon_05.svg"
+              alt="Program_5"
+            />
+            <h5 class="categoryTitle">CC Ignite</h5>
+            <p class="categoryDesc">
+              get opportunities to network with CC affiliates around the world,
+              also after the summit.
+            </p>
+          </div>
+        </div>
+        <div class="joinBtn">
+          <p class="joinBtnText">Join Global Art 2023</p>
+        </div>
+        <div class="wholeProgram">
+          <p class="wholeProgText">SEE THE WHOLE PROGRAM</p>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="partnersTop">
+        <h4 class="partnerTitle">Partner</h4>
+        <div class="borderBottom"></div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="logoFooter">
+        <img src="./Logo/logo.svg" alt="Logo" />
+      </div>
+      <div class="copyrightFooter">
+        2023 Creative Commons Korea. Some Rights Reserved.
+        <p class="extraText">
+          달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시
+          2.0 대한민국 라이선스에 따라 이용할 수 있습니다. 자세한 이용기능
+          내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를
+          보세요.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

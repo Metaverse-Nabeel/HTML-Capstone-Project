@@ -1,11 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
-  <img src="soyMarco.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Capstone Project | README </b></h3>
+  <h3><b>Capstone Project - 1 | README </b></h3>
 
 </div>
 
@@ -82,7 +80,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- **Todo after the project culmination**
+- Live Demo: [Capstone Project 1](https://metaverse-nabeel.github.io/Capstone-Project-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +117,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using:
+- Deployed at GitHub Pages: [Capstone Project 1](https://metaverse-nabeel.github.io/Capstone-Project-1/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -130,9 +128,9 @@ You can deploy this project using:
 
 👤 **Author**
 
-- GitHub: [@MarcoDDM](https://github.com/Metaverse-Nabeel)
-- Twitter: [@nerdpiola](https://twitter.com/Nabeel129)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/Nabeel129)
+- GitHub: [@Metaverse-Nabeel](https://github.com/Metaverse-Nabeel)
+- Twitter: [@Nabeel129](https://twitter.com/Nabeel129)
+- LinkedIn: [@Nabeel129](https://linkedin.com/in/Nabeel129)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,8 +138,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Desktop version**
-- **Contact form**
+- **Additional Pages like Get Tickets etc**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,8 +172,6 @@ I would like to pay my special thanks to "Cindy Shin" for Original design idea i
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](./LICENSE.md) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

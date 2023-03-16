@@ -1,0 +1,685 @@
+.header {
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 5px 6px 15px gainsboro;
+}
+
+.navBanner {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
+.contentHeroAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutHero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--red);
+  height: 90vh;
+  background: rgba(246, 246, 246, 0.5);
+  gap: 30px;
+}
+
+.aboutTitleHero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  color: var(--red);
+}
+
+.about {
+  background-image: url(./images/home-bg-desk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.aboutTheme {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0 0 50px 0;
+}
+
+.introAbout {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--red);
+}
+
+.titleAbout {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--red);
+  text-align: center;
+}
+
+.aboutText {
+  background-color: #fff;
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.aboutDesc {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+
+.group_2 {
+  height: 10vh;
+}
+
+.aboutContact {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  color: #7a7a7a;
+  text-align: center;
+  padding: 0 25px;
+  margin-bottom: 0;
+}
+
+.aboutEmail {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: #5f5f5f;
+}
+
+.logoMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+  background: #fff;
+  margin-bottom: 15px;
+}
+
+.logoInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 92%;
+  gap: 20px;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 15px;
+}
+
+.logoTitle {
+  text-align: center;
+  width: 65%;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #2c2c2c;
+}
+
+.emptyDiv3 {
+  border: 1.5px solid var(--red);
+  width: 35px;
+}
+
+.logoDesc {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #838383;
+}
+
+.logoImg {
+  width: 110%;
+  padding: 15px 0;
+  border: 1px solid var(--gray);
+}
+
+.previousConcert {
+  padding: 0;
+  gap: 35px;
+  border-top: 1px solid var(--gray);
+  height: 100%;
+}
+
+.prevConcertTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.prevConcertTitle {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+}
+
+.emptyDiv4 {
+  border: 1.5px solid var(--red);
+  width: 35px;
+}
+
+.prevConcertDesc {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #838383;
+}
+
+.prevImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.partners {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 40px;
+  gap: 10px;
+  background: #414246;
+}
+
+.partnersTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerTitle {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.partner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  margin-top: 1.3rem;
+}
+
+.footer {
+  height: 20vh;
+  background-color: var(--black);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoFooter {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyrightFooter {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.hamburger {
+  font-size: 2rem;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.closeBtn {
+  font-size: 2rem;
+  padding-left: 25px;
+  cursor: pointer;
+  color: var(--red);
+}
+
+.closeBtn:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
+}
+
+.hamburger:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: var(--black);
+}
+
+.mobileNavbar {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  font-size: xx-large;
+  width: 90%;
+  position: absolute;
+  top: 70px;
+}
+
+.mobileNavbar ul li a {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: var(--red);
+  text-decoration: none;
+}
+
+.mobileNavbarItems {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.desktopAboutDesc {
+  display: none;
+}
+
+.extraText {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 6px 15px gainsboro;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 0;
+  }
+
+  .navBanner li {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  .desktopNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .desktopNavbar ul li a {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 17px;
+    color: #868686;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desktopNavbar ul li:last-child {
+    border: 4px solid var(--red);
+    padding: 10px;
+    color: var(--red);
+  }
+
+  .desktopNavbar ul li:last-child a {
+    color: var(--red);
+  }
+
+  .navbarItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 0;
+  }
+
+  .navBannerHeader {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 10rem;
+    height: 4vh;
+    background-color: var(--black);
+  }
+
+  .about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutHero {
+    height: auto;
+  }
+
+  .introAbout {
+    display: none;
+  }
+
+  .titleAbout {
+    font-size: 70px;
+  }
+
+  .aboutDesc {
+    display: none;
+  }
+
+  .desktopAboutDesc {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000;
+  }
+
+  .group_1 {
+    width: 55%;
+  }
+
+  .aboutText {
+    background-color: #fff;
+    width: 100%;
+    padding: 30px 60px;
+  }
+
+  .group_2 {
+    height: 10vh;
+  }
+
+  .aboutContact {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .aboutEmail {
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .logoMain {
+    height: 80vh;
+    background: #fff;
+    margin-bottom: 15px;
+  }
+
+  .logoInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    gap: 20px;
+  }
+
+  .logoText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 15px;
+    width: 60%;
+  }
+
+  .logoTitle {
+    font-size: 30px;
+    line-height: 28px;
+  }
+
+  .logoDesc {
+    display: none;
+  }
+
+  .desktopLogoDesc {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #838383;
+  }
+
+  .emptyDiv3 {
+    border: 1.5px solid var(--red);
+    width: 35px;
+  }
+
+  .logoImg {
+    padding: 15px 0;
+    border: 1px solid var(--gray);
+    width: auto;
+  }
+
+  .logoImg img {
+    width: 542px;
+    height: 195.28px;
+  }
+
+  .previousConcert {
+    padding: 0;
+    gap: 35px;
+    border-top: 1px solid var(--gray);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prevConcertTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .prevConcertTitle {
+    font-size: 30px;
+    line-height: 28px;
+  }
+
+  .emptyDiv4 {
+    border: 1.5px solid var(--red);
+    width: 35px;
+  }
+
+  .prevConcertDesc {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .prevImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prevImages img {
+    width: 432px;
+    height: 236px;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .footer {
+    height: 30vh;
+    background-color: var(--black);
+  }
+
+  .logoFooter {
+    width: 20%;
+  }
+
+  .copyrightFooter {
+    width: 60%;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .extraText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+  }
+}
