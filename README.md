@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Capstone Project - 1 | README </b></h3>
+  <h3><b>HMTL Capstone Project | README </b></h3>
 
 </div>
 
